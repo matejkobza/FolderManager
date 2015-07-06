@@ -14,7 +14,7 @@ while (false !== ($filename = $dir->read())) {
 //if (strpos($filename,'.zip') !== false) {
 //    echo 'true';
 //}
-//else s{echo 'false';}
+//else ss{echo 'false';}
 
 
 //
