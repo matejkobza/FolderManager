@@ -9,7 +9,7 @@ $dir = dir(getcwd());
 
 while (false !== ($filename = $dir->read())) {
     if (strpos($filename, '.zip') != false) {
-        echo "<tr><td><a href=" . $filename . ">" . $filename . "</a></td><td>" . date ("F d Y H:i:s.", filemtime($filename)) . filesize($filename) . ' bytes' "</td></tr>";
+        echo "<tr><td><a href=" . $filename . ">" . $filename . "</a></td><td>" . date ("F d Y H:i:s.", filemtime($filename)) . "</td><td>" . filesize($filename) . " bytes</td></tr>";
 
 
 
